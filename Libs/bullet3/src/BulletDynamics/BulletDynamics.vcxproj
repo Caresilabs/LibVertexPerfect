@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -57,25 +57,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BulletDynamics.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BulletDynamics_Debug</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BulletDynamics.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BulletDynamics</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BulletDynamics.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BulletDynamics_MinsizeRel</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BulletDynamics.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BulletDynamics_RelWithDebugInfo</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BulletDynamics.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BulletDynamics_Debug</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BulletDynamics.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BulletDynamics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BulletDynamics.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BulletDynamics_MinsizeRel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BulletDynamics.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BulletDynamics_RelWithDebugInfo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -90,7 +90,7 @@
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -124,12 +124,13 @@
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -164,7 +165,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -329,42 +331,42 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h" />
     <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btLemkeSolver.h" />
     <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h" />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Character\btKinematicCharacterController.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btSimulationIslandManagerMt.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btRigidBody.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Vehicle\btWheelInfo.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBody.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Character\btKinematicCharacterController.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btSimulationIslandManagerMt.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btRigidBody.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Vehicle\btWheelInfo.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBody.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">

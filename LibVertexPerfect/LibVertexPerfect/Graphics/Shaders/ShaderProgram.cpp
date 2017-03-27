@@ -52,12 +52,13 @@ ShaderProgram::~ShaderProgram() {
 	SAFE_RELEASE( PixelShader );
 }
 
-bool ShaderProgram::CompileShader( char * shaderFile, char * pEntrypoint, char * pTarget, D3D10_SHADER_MACRO * pDefines, ID3DBlob ** pCompiledShader ) {
+bool ShaderProgram::CompileShader( const char * shaderFile, const char * pEntrypoint, const char * pTarget, D3D10_SHADER_MACRO * pDefines, ID3DBlob ** pCompiledShader ) {
 	DWORD dwShaderFlags = D3DCOMPILE_ENABLE_STRICTNESS |
 		D3DCOMPILE_IEEE_STRICTNESS;
 
 	std::string shader_code;
 	std::ifstream in( shaderFile, std::ios::in | std::ios::binary );
+	std::string e = strerror( errno );
 	if ( in ) {
 		in.seekg( 0, std::ios::end );
 		shader_code.resize( (UINT)in.tellg() );

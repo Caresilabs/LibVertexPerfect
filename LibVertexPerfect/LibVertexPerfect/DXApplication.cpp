@@ -140,6 +140,8 @@ int DXApplication::Play( const DXApplicationConfig& config ) {
 
 DXApplication::~DXApplication() {
 	SAFE_DELETE( Listener );
+	SAFE_DELETE( Input );
+	SAFE_DELETE( Graphics );
 }
 
 HRESULT DXApplication::InitWindow( const DXApplicationConfig& config ) {

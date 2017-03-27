@@ -2,10 +2,11 @@
 #include "../Camera.h"
 #include <D3D11.h>
 #include "../DXGraphics.h"
-#include <vector>
+#include <unordered_map>
 #include "../DrawCall.h"
 
 class MeshInstance;
+class material_t;
 
 class ShaderProgram {
 public:
@@ -54,7 +55,7 @@ private:
 		ShaderType					Type;
 	};
 
-	bool							CompileShader( char* shaderFile, char* pEntrypoint, char* pTarget, D3D10_SHADER_MACRO* pDefines, ID3DBlob** pCompiledShader );
+	bool							CompileShader( const char* shaderFile, const char* pEntrypoint, const char* pTarget, D3D10_SHADER_MACRO* pDefines, ID3DBlob** pCompiledShader );
 
 	ID3D11InputLayout*				InputLayout = nullptr;
 	ID3D11VertexShader*				VertexShader = nullptr;

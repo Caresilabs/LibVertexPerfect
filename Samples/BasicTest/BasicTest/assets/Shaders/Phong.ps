@@ -1,0 +1,132 @@
+
+cbuffer PerObjectBuffer : register(b2)
+{
+	float3 Ka;
+	bool   KaUseTexture;
+
+	float3 Kd;
+	bool   KdUseTexture;
+
+	float3 Ks;
+	bool   KsUseTexture;
+
+	int	  NormalUseTexture;
+	int	  MaskUseTexture;
+
+	float ReflectionValue;
+	float Pad;
+};
+
+struct PSIn
+{
+	float4 Pos  : SV_Position;
+	float3x3 Normals : NORMALS;
+	float2 TexCoord : TEX;
+	float3 LightPos : LIGHTPOS;
+	float3 WorldPos : WORLDPOS;
+	float3 CameraPos : CAMERAPOS;
+	float4 LightPosTest : LIGHTPOSTEST;
+};
+
+Texture2D DiffuseTexture : register(t0);
+Texture2D SpecularTexture : register(t1);
+Texture2D NormalTexture : register(t2);
+Texture2D MaskTexture : register(t3);
+Texture2D ShadowMapTexture : register(t4);
+TextureCube SkyBoxTexture : register(t5);
+
+sampler Sampler : register(s0);
+
+float4 PS_main(PSIn input) : SV_Target
+{	
+	// Mask
+	if (MaskUseTexture) {
+		if (MaskTexture.Sample(Sampler, input.TexCoord).x == 0) {
+			discard;
+		}
+	}
+
+	// Normal
+	float3 normal;
+	if (NormalUseTexture) {
+		float3 texNormal = 2.0f * NormalTexture.Sample(Sampler, input.TexCoord) - 1.0f;
+		normal = normalize( mul(texNormal, input.Normals) );
+	} else {
+		normal = normalize(input.Normals[2]);
+	}
+	
+	float3 lightDir = normalize(  input.LightPos  ); //- input.WorldPos
+	float3 viewDir = normalize( input.CameraPos - input.WorldPos );
+
+	float texScale = 1.0f;
+
+	// Diffuse
+	float3 diffuse;
+	if (KdUseTexture) {
+		diffuse = DiffuseTexture.Sample(Sampler, input.TexCoord * texScale) * Kd;
+		diffuse *= max(0, dot(normal, lightDir)) + Ka;				
+	} else {
+		diffuse = Ka + ( max(0, dot(normal, lightDir))) * Kd;
+	}
+
+	// Specular
+	float specPow = 90.0;
+	float3 specular;
+	if (KsUseTexture) {
+		specular = pow( max(0, dot(-reflect(lightDir, normal), viewDir)), specPow) * SpecularTexture.Sample(Sampler, input.TexCoord).rrr;
+	 } else {
+		specular = pow( max(0, dot(-reflect(lightDir, normal), viewDir)), specPow) * Ks;
+	 }
+
+
+	// Reflections
+	if ( ReflectionValue != 0 ) {
+		diffuse = ((1.0 - ReflectionValue) * diffuse) + SkyBoxTexture.Sample(Sampler, -reflect(viewDir, normal)) * ReflectionValue;
+		specular *= 1.0 - ReflectionValue;
+	}
+
+
+	// Shadows start
+	float shadowScale = 1.0;
+
+	 // Convert to NDC
+    input.LightPosTest.xyz /= input.LightPosTest.w;		
+
+
+	// transform clip coords to tex coords
+    input.LightPosTest.x = input.LightPosTest.x / 2.0 + 0.5;
+    input.LightPosTest.y = input.LightPosTest.y / -2.0 + 0.5;
+
+    // Cull out everytthing outside frustum
+    if((saturate( input.LightPosTest.x) != input.LightPosTest.x) || (saturate( input.LightPosTest.y) !=  input.LightPosTest.y))
+	{
+		shadowScale = Ka.x * 0.9;
+		return float4( ( diffuse ) * shadowScale, 1);
+	}
+	
+	// TODO Don't hardcode
+	float xOffset = 1.0 / 1280.0;
+    float yOffset = 1.0 / 720.0;
+
+	// PCF Calc
+    float Factor = 0.0;
+    for (int y = -1 ; y <= 1 ; y++) {
+        for (int x = -1 ; x <= 1 ; x++) {
+            float2 Offsets = float2(x * xOffset, y * yOffset);
+            float2 UV = float2(input.LightPosTest.xy + Offsets);
+            Factor += ShadowMapTexture.Sample(Sampler, UV).r;
+        }
+    }
+	Factor = (Factor / 9.0);
+
+	float zDepth = input.LightPosTest.z - 0.00008;
+
+    // if clip space z value greater than shadow map value then pixel is in shadow
+    if ( Factor <  zDepth  )  {
+		shadowScale = Ka.x * 0.9;
+		return float4( ( diffuse ) * shadowScale, 1);
+	}
+
+
+	return float4( ( diffuse + specular), 1);
+}

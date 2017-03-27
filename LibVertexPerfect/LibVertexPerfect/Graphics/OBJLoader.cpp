@@ -85,6 +85,7 @@ void MeshData::LoadObj( const std::string & filename, bool auto_generate_normals
 	std::string parentdir = get_parentdir( filename );
 
 	std::ifstream in( filename.c_str() );
+
 	if ( !in ) throw std::runtime_error( std::string( "failed to open " ) + filename );
 	std::cout << "opened " << filename << "\n";
 
