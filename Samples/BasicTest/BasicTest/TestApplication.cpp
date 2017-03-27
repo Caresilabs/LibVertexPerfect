@@ -12,8 +12,8 @@ int WINAPI wWinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdL
 	config.lpCmdLine = lpCmdLine;
 	config.nCmdShow = nCmdShow;
 
-	config.className = "Assignment2";
-	config.title = "LVP Tech-Demo #DevMode";
+	config.className = "SampleGame";
+	config.title = "LVP Sample Game";
 	config.width = 1280;
 	config.height = 720;
 	config.app = new MyTestGame();

@@ -101,7 +101,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Libs\bulletphysics\src;..\..\Libs\entityx\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -203,6 +203,9 @@
     </ProjectReference>
     <ProjectReference Include="..\..\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
       <Project>{d9eb2cc4-9c27-3c06-94c6-353da59fec28}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libs\entityxbuild\entityx.vcxproj">
+      <Project>{3a8fed13-4eee-323d-aa89-fa2191f19529}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

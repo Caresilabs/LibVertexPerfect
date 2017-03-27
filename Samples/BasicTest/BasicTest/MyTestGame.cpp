@@ -1,6 +1,7 @@
 #include "MyTestGame.h"
 #include "ShadowMapShader.h"
 #include "btBulletDynamicsCommon.h"
+#include "entityx\entityx.h"
 
 MyTestGame::MyTestGame() {
 }
@@ -31,8 +32,11 @@ void MyTestGame::Start() {
 	Shader = new PhongShader( ShadowMapBuffer, ShadowCam );
 
 
+	entityx::EntityX ex;
+	auto e = ex.entities.create();
+	e.assign<int>( 1 );
 
-
+	e.destroy();
 
 	// Build the broadphase
 	btBroadphaseInterface* broadphase = new btDbvtBroadphase();
@@ -67,7 +71,7 @@ void MyTestGame::Update( float delta ) {
 	if ( LVP::Input->IsKeyDown( VK_SHIFT ) ) {
 		speed = 10.f;
 	} else {
-		speed = 4.5f;
+		speed = 2.5f;
 	}
 
 	if ( LVP::Input->IsKeyDown( 'S' ) ) {

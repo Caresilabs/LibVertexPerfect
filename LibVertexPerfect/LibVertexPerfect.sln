@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletCollision", "..\Libs\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletDynamics", "..\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj", "{DA6CF95B-62C0-355C-BF44-0EA9A8AF6932}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "entityx", "..\Libs\entityxbuild\entityx.vcxproj", "{3A8FED13-4EEE-323D-AA89-FA2191F19529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -80,6 +82,18 @@ Global
 		{DA6CF95B-62C0-355C-BF44-0EA9A8AF6932}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|Win32
 		{DA6CF95B-62C0-355C-BF44-0EA9A8AF6932}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
 		{DA6CF95B-62C0-355C-BF44-0EA9A8AF6932}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.Debug|x64.ActiveCfg = Debug|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.Debug|x86.Build.0 = Debug|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.MinSizeRel|x64.ActiveCfg = MinSizeRel|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.MinSizeRel|x86.ActiveCfg = MinSizeRel|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.MinSizeRel|x86.Build.0 = MinSizeRel|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.Release|x64.ActiveCfg = Release|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.Release|x86.ActiveCfg = Release|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.Release|x86.Build.0 = Release|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
+		{3A8FED13-4EEE-323D-AA89-FA2191F19529}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

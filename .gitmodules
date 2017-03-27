@@ -1,3 +1,6 @@
 [submodule "libs/bulletphysics"]
 	path = libs/bulletphysics
 	url = https://github.com/bulletphysics/bullet3.git
+[submodule "libs/entityx"]
+	path = libs/entityx
+	url = https://github.com/alecthomas/entityx.git
