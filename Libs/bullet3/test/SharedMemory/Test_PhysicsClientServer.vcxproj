@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D05FE2D3-544D-3F81-9C2E-6E5CDD712159}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Test_PhysicsClientServer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Test_PhysicsClientServer.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Test_PhysicsClientServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Test_PhysicsClientServer.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Test_PhysicsClientServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Test_PhysicsClientServer.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Test_PhysicsClientServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Test_PhysicsClientServer.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Test_PhysicsClientServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\BulletInverseDynamicsUtils_Debug.lib;..\..\lib\Debug\BulletInverseDynamics_Debug.lib;..\..\lib\Debug\BulletFileLoader_Debug.lib;..\..\lib\Debug\BulletWorldImporter_Debug.lib;..\..\lib\Debug\Bullet3Common_Debug.lib;..\..\lib\Debug\BulletDynamics_Debug.lib;..\..\lib\Debug\BulletCollision_Debug.lib;..\..\lib\Debug\LinearMath_Debug.lib;..\..\lib\Debug\gtest_Debug.lib;..\..\lib\Debug\BussIK_Debug.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/Debug/Test_PhysicsClientServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/Debug/Test_PhysicsClientServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\BulletInverseDynamicsUtils.lib;..\..\lib\Release\BulletInverseDynamics.lib;..\..\lib\Release\BulletFileLoader.lib;..\..\lib\Release\BulletWorldImporter.lib;..\..\lib\Release\Bullet3Common.lib;..\..\lib\Release\BulletDynamics.lib;..\..\lib\Release\BulletCollision.lib;..\..\lib\Release\LinearMath.lib;..\..\lib\Release\gtest.lib;..\..\lib\Release\BussIK.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/Release/Test_PhysicsClientServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/Release/Test_PhysicsClientServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\BulletInverseDynamicsUtils_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletInverseDynamics_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletFileLoader_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletWorldImporter_MinsizeRel.lib;..\..\lib\MinSizeRel\Bullet3Common_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletDynamics_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletCollision_MinsizeRel.lib;..\..\lib\MinSizeRel\LinearMath_MinsizeRel.lib;..\..\lib\MinSizeRel\gtest_MinsizeRel.lib;..\..\lib\MinSizeRel\BussIK_MinsizeRel.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/MinSizeRel/Test_PhysicsClientServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/MinSizeRel/Test_PhysicsClientServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PHYSICS_LOOP_BACK;PHYSICS_SERVER_DIRECT;ENABLE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\test\SharedMemory\.;D:\Dev\Git\bullet3\test\SharedMemory\..\..\src;D:\Dev\Git\bullet3\test\SharedMemory\..\gtest-1.7.0\include;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples;D:\Dev\Git\bullet3\test\SharedMemory\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\BulletInverseDynamicsUtils_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletInverseDynamics_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletFileLoader_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletWorldImporter_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\Bullet3Common_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletDynamics_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletCollision_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\LinearMath_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\gtest_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BussIK_RelWithDebugInfo.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/RelWithDebInfo/Test_PhysicsClientServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/RelWithDebInfo/Test_PhysicsClientServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/SharedMemory/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Dev/Git/bullet3/test/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\test\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\IKTrajectoryHelper.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClient.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServer.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerSharedMemory.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirect.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirectC_API.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientC_API.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBack.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBackC_API.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\Win32SharedMemory.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PosixSharedMemory.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\b3ResourcePath.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\b3Clock.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\RobotLoggingUtil.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\TinyRendererVisualShapeConverter.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\OpenGLWindow\SimpleCamera.h" />
+    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.h" />
+    <ClCompile Include="D:\Dev\Git\bullet3\test\SharedMemory\gtestwrap.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClient.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\IKTrajectoryHelper.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServer.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerSharedMemory.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirect.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirectC_API.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerCommandProcessor.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientC_API.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBack.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBackC_API.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\Win32SharedMemory.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PosixSharedMemory.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\b3ResourcePath.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\b3Clock.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\RobotLoggingUtil.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\OpenGLWindow\SimpleCamera.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\geometry.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\model.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\tgaimage.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\our_gl.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\TinyRenderer.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinystr.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\UrdfParser.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp"  />
+    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>8D08EB63-3B63-3B23-B59F-AC65375F180C</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>EE89FC93-A146-3236-90EF-193232923746</Project>
+      <Name>Bullet3Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>13E2424B-FFEB-38EE-B421-A037FDB117D4</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>472812C5-2DA7-3103-9FE6-AB542E88B755</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>2FE9D000-A068-358B-B3EF-7A002F03ED9C</Project>
+      <Name>BulletFileLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>89943C33-DDE9-35D7-BE43-314D5F8B44D9</Project>
+      <Name>BulletInverseDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>4CC958EC-AC9D-3CA0-8C2B-E8B40E5031D9</Project>
+      <Name>BulletInverseDynamicsUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>A06C8A6A-8CE9-3609-BBAE-B9782DA0399F</Project>
+      <Name>BulletWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>DC3BE11C-B264-349C-A840-38A0FC702900</Project>
+      <Name>BussIK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
+      <Project>64871F12-CC7C-3471-8132-775AAA987463</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\gtest-1.7.0\gtest.vcxproj">
+      <Project>9DA07BEF-37F3-394A-82FA-EA4C52628C70</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
