@@ -1,126 +1,126 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btAlignedAllocator.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btAlignedAllocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btConvexHull.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btConvexHull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btConvexHullComputer.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btConvexHullComputer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btGeometryUtil.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btGeometryUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btPolarDecomposition.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btPolarDecomposition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btQuickprof.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btQuickprof.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btSerializer.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btSerializer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btThreads.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btThreads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\LinearMath\btVector3.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btVector3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btAabbUtil2.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btAabbUtil2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btAlignedAllocator.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btAlignedAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btAlignedObjectArray.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btAlignedObjectArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btConvexHull.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btConvexHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btConvexHullComputer.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btConvexHullComputer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btDefaultMotionState.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btDefaultMotionState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btGeometryUtil.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btGeometryUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btGrahamScan2dConvexHull.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btGrahamScan2dConvexHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btHashMap.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btHashMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btIDebugDraw.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btIDebugDraw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btList.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btMatrix3x3.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btMatrix3x3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btMinMax.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btMinMax.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btMotionState.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btMotionState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btPolarDecomposition.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btPolarDecomposition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btPoolAllocator.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btPoolAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btQuadWord.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btQuadWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btQuaternion.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btQuaternion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btQuickprof.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btQuickprof.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btRandom.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btRandom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btScalar.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btScalar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btSerializer.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btSerializer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btStackAlloc.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btStackAlloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btThreads.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btThreads.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btTransform.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btTransform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btTransformUtil.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btTransformUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\LinearMath\btVector3.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\btVector3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\src\LinearMath\CMakeLists.txt" />
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\LinearMath\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A4C4A64D-5D80-354C-801B-D6083F5263E1}</UniqueIdentifier>
+      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D7D2014B-19E0-31E5-90F6-2086436044B9}</UniqueIdentifier>
+      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

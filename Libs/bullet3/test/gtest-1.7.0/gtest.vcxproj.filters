@@ -1,84 +1,84 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\src\gtest-all.cc">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\src\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest-death-test.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest-death-test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest-message.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest-message.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest-param-test.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest-param-test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest-printers.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest-printers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest-spi.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest-spi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest-test-part.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest-test-part.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest-typed-test.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest-typed-test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest_pred_impl.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest_pred_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\gtest_prod.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\gtest_prod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-death-test-internal.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-death-test-internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-filepath.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-filepath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-internal.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-linked_ptr.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-linked_ptr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-param-util-generated.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-param-util-generated.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-param-util.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-param-util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-port.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-port.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-string.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-string.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-tuple.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-tuple.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\include\gtest\internal\gtest-type-util.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include\gtest\internal\gtest-type-util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\src\gtest-internal-inl.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\src\gtest-internal-inl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\test\gtest-1.7.0\CMakeLists.txt" />
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A4C4A64D-5D80-354C-801B-D6083F5263E1}</UniqueIdentifier>
+      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D7D2014B-19E0-31E5-90F6-2086436044B9}</UniqueIdentifier>
+      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

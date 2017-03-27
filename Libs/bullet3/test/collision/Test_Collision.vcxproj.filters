@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev\Git\bullet3\test\collision\main.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\collision\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\CollisionShapes\btSphereShape.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\CollisionShapes\btSphereShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\CollisionShapes\btConvexShape.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\CollisionShapes\btConvexShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\CollisionShapes\btCollisionShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\test\collision\CMakeLists.txt" />
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\collision\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A4C4A64D-5D80-354C-801B-D6083F5263E1}</UniqueIdentifier>
+      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D7D2014B-19E0-31E5-90F6-2086436044B9}</UniqueIdentifier>
+      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

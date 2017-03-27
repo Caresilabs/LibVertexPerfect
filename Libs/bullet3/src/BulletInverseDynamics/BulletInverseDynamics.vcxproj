@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{89943C33-DDE9-35D7-BE43-314D5F8B44D9}</ProjectGUID>
+    <ProjectGUID>{2A5225B8-F68F-349B-90EC-40369E7D1209}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>BulletInverseDynamics</ProjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BulletInverseDynamics.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BulletInverseDynamics_Debug</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BulletInverseDynamics.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BulletInverseDynamics</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BulletInverseDynamics.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BulletInverseDynamics_MinsizeRel</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BulletInverseDynamics.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BulletInverseDynamics_RelWithDebugInfo</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -98,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -168,10 +168,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -184,7 +184,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -203,10 +203,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -218,10 +218,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,12 +229,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,12 +242,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,12 +255,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/src/BulletInverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,31 +268,31 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Dev/Git/bullet3/src/BulletInverseDynamics/CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;D:\Dev\Git\bullet3\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletInverseDynamics/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\IDConfig.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\IDConfigEigen.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\IDMath.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\IDConfigBuiltin.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\IDErrorMessages.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\MultiBodyTree.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\details\IDEigenInterface.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\details\IDMatVec.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\details\IDLinearMathInterface.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\details\MultiBodyTreeImpl.hpp" />
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\details\MultiBodyTreeInitCache.hpp" />
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\IDMath.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\MultiBodyTree.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\details\MultiBodyTreeInitCache.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp"  />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\IDConfig.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\IDConfigEigen.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\IDMath.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\IDConfigBuiltin.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\IDErrorMessages.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\MultiBodyTree.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\details\IDEigenInterface.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\details\IDMatVec.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\details\IDLinearMathInterface.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\details\MultiBodyTreeImpl.hpp" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\details\MultiBodyTreeInitCache.hpp" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\IDMath.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\MultiBodyTree.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\details\MultiBodyTreeInitCache.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>8D08EB63-3B63-3B23-B59F-AC65375F180C</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

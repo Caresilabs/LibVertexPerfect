@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/Git/bullet3/examples
+# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,15 +29,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/HelloWorld/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/BasicDemo/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ExampleBrowser/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/Gwen/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/clsocket/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/OpenGLWindow/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/HelloWorld/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/BasicDemo/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ExampleBrowser/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/Gwen/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/clsocket/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/OpenGLWindow/cmake_install.cmake")
 
 endif()
 

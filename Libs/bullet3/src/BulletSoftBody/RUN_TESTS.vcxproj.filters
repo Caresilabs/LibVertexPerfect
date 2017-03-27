@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\CMakeFiles\75d5dd865c6c07047e42f861f3aab8dd\RUN_TESTS_force.rule">
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\CMakeFiles\6855ac2528d4ed0a61ed9ae47e73c6c4\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{781B565E-021D-32AF-8625-261C28FD1A21}</UniqueIdentifier>
+      <UniqueIdentifier>{06DF8733-0E12-3663-8FAA-6B3C462BA985}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

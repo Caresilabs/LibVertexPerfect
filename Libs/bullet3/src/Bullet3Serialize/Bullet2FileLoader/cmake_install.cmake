@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/Git/bullet3/src/Bullet3Serialize/Bullet2FileLoader
+# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/Bullet3Serialize/Bullet2FileLoader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

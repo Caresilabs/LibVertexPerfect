@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\CMakeFiles\fa434c8a4055bc6f8fb966a294c6e426\INSTALL_force.rule">
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\CMakeFiles\a6b2e09bece81ef43ab66fcac0f19675\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{781B565E-021D-32AF-8625-261C28FD1A21}</UniqueIdentifier>
+      <UniqueIdentifier>{06DF8733-0E12-3663-8FAA-6B3C462BA985}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: D:/Dev/Git/bullet3/test/collision
-# Build directory: D:/Dev/Git/LibVertexPerfect/Libs/bullet3/test/collision
+# Source directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/collision
+# Build directory: E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/collision
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

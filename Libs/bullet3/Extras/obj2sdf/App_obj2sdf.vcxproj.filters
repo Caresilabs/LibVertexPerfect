@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev\Git\bullet3\Extras\obj2sdf\obj2sdf.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\obj2sdf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\b3ResourcePath.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\b3ResourcePath.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\Extras\obj2sdf\CMakeLists.txt" />
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A4C4A64D-5D80-354C-801B-D6083F5263E1}</UniqueIdentifier>
+      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D7D2014B-19E0-31E5-90F6-2086436044B9}</UniqueIdentifier>
+      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

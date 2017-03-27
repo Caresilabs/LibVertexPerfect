@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{DC3BE11C-B264-349C-A840-38A0FC702900}</ProjectGUID>
+    <ProjectGUID>{58A08D87-8151-3FEB-9B08-338755967AE1}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>BussIK</ProjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BussIK.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BussIK_Debug</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BussIK.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BussIK</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BussIK.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">BussIK_MinsizeRel</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BussIK.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">BussIK_RelWithDebugInfo</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -98,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -168,10 +168,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -184,7 +184,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -203,10 +203,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -218,10 +218,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,12 +229,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,12 +242,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,12 +255,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,35 +268,35 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Jacobian.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\LinearR2.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\LinearR3.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\LinearR4.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\MathMisc.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\MatrixRmn.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Node.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Spherical.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Tree.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\VectorRn.h" />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Jacobian.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\LinearR2.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\LinearR3.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\LinearR4.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\MatrixRmn.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Misc.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Node.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\Tree.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\BussIK\VectorRn.cpp"  />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Jacobian.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR2.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR3.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR4.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MathMisc.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MatrixRmn.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Node.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Spherical.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Tree.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\VectorRn.h" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Jacobian.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR2.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR3.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR4.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MatrixRmn.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Misc.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Node.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Tree.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\VectorRn.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>8D08EB63-3B63-3B23-B59F-AC65375F180C</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

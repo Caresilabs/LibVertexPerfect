@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{9F3DDD5E-D252-3851-8B2A-2840BBA6B6AD}</ProjectGUID>
+    <ProjectGUID>{830D0BF7-FDF0-37CE-B531-8314A0BB2B68}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>App_RobotSimulator</ProjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_RobotSimulator.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_RobotSimulator_d</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_RobotSimulator.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_RobotSimulator</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_RobotSimulator.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_RobotSimulator</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_RobotSimulator.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_RobotSimulator</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -86,7 +86,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -106,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;WIN32;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,8 +122,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Debug/App_RobotSimulator_d.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Debug/App_RobotSimulator_d.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Debug/App_RobotSimulator_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Debug/App_RobotSimulator_d.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -152,10 +152,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;WIN32;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,8 +168,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Release/App_RobotSimulator.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Release/App_RobotSimulator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Release/App_RobotSimulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/Release/App_RobotSimulator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -179,7 +179,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -198,10 +198,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;WIN32;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,8 +214,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/MinSizeRel/App_RobotSimulator.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/MinSizeRel/App_RobotSimulator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/MinSizeRel/App_RobotSimulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/MinSizeRel/App_RobotSimulator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -225,7 +225,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -244,10 +244,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;WIN32;BT_ENABLE_ENET;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\include;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src;D:\Dev\Git\bullet3\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -260,8 +260,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/RelWithDebInfo/App_RobotSimulator.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/RelWithDebInfo/App_RobotSimulator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/RelWithDebInfo/App_RobotSimulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/RelWithDebInfo/App_RobotSimulator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -270,10 +270,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,12 +307,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -320,199 +320,199 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Dev/Git/bullet3/examples/RobotSimulator/CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;D:\Dev\Git\bullet3\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/RobotSimulator/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\RobotSimulator\b3RobotSimulatorClientAPI.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\RobotSimulator\MinitaurSetup.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\IKTrajectoryHelper.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\TinyRendererVisualShapeConverter.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\OpenGLWindow\SimpleCamera.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClient.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServer.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerSharedMemory.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirect.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirectC_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientC_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\Win32SharedMemory.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PosixSharedMemory.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\b3ResourcePath.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\RobotLoggingUtil.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientUDP.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientUDP_C_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientTCP.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientTCP_C_API.h" />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\RobotSimulator\RobotSimulatorMain.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\RobotSimulator\b3RobotSimulatorClientAPI.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\RobotSimulator\MinitaurSetup.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\IKTrajectoryHelper.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ExampleBrowser\InProcessExampleBrowser.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\OpenGLWindow\SimpleCamera.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\geometry.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\model.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\tgaimage.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\our_gl.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\TinyRenderer.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\InProcessMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClient.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServer.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerExample.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerSharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirect.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirectC_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerCommandProcessor.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientC_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\Win32SharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PosixSharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\b3ResourcePath.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\RobotLoggingUtil.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinystr.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\UrdfParser.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\MultiThreading\b3PosixThreadSupport.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\MultiThreading\b3Win32ThreadSupport.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\MultiThreading\b3ThreadSupportInterface.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientUDP.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientUDP_C_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\win32.c" >
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\b3RobotSimulatorClientAPI.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\MinitaurSetup.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\IKTrajectoryHelper.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\TinyRendererVisualShapeConverter.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\OpenGLWindow\SimpleCamera.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClient.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServer.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerSharedMemory.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirect.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirectC_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientC_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\Win32SharedMemory.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PosixSharedMemory.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\RobotLoggingUtil.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientUDP.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientUDP_C_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientTCP.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientTCP_C_API.h" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\RobotSimulatorMain.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\b3RobotSimulatorClientAPI.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\RobotSimulator\MinitaurSetup.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\IKTrajectoryHelper.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\InProcessExampleBrowser.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\OpenGLWindow\SimpleCamera.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\geometry.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\model.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\tgaimage.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\our_gl.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\TinyRenderer.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\InProcessMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClient.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServer.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerExample.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerSharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirect.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirectC_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerCommandProcessor.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientC_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\Win32SharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PosixSharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\RobotLoggingUtil.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinystr.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\stb_image\stb_image.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\UrdfParser.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiThreading\b3PosixThreadSupport.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiThreading\b3Win32ThreadSupport.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiThreading\b3ThreadSupportInterface.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientUDP.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientUDP_C_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\win32.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\unix.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\unix.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\callbacks.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\callbacks.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\compress.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\compress.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\host.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\host.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\list.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\list.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\packet.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\packet.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\peer.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\peer.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\enet\protocol.c" >
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\enet\protocol.c" >
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientTCP.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientTCP_C_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src\SimpleSocket.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src\ActiveSocket.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\clsocket\src\PassiveSocket.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientTCP.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientTCP_C_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src\SimpleSocket.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src\ActiveSocket.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\clsocket\src\PassiveSocket.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>8D08EB63-3B63-3B23-B59F-AC65375F180C</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\Bullet3Common\Bullet3Common.vcxproj">
-      <Project>EE89FC93-A146-3236-90EF-193232923746</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>A08376B1-B085-3E21-8BDF-1BAFAECC9F5F</Project>
       <Name>Bullet3Common</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>13E2424B-FFEB-38EE-B421-A037FDB117D4</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>51E83CD8-AFBC-31E9-93AE-DCBE9A97887D</Project>
       <Name>BulletCollision</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>472812C5-2DA7-3103-9FE6-AB542E88B755</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>DA6CF95B-62C0-355C-BF44-0EA9A8AF6932</Project>
       <Name>BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
-      <Project>0425EDA8-ACCF-390D-8A92-326A2C93F580</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
+      <Project>FBDA727C-AD39-3AFE-9C73-D6A7F1093AED</Project>
       <Name>BulletExampleBrowserLib</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
-      <Project>2FE9D000-A068-358B-B3EF-7A002F03ED9C</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>D9E263FD-5D82-3D49-BC4E-BE8218F8E0B4</Project>
       <Name>BulletFileLoader</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
-      <Project>89943C33-DDE9-35D7-BE43-314D5F8B44D9</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>2A5225B8-F68F-349B-90EC-40369E7D1209</Project>
       <Name>BulletInverseDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
-      <Project>4CC958EC-AC9D-3CA0-8C2B-E8B40E5031D9</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>4F2131CF-3040-39BB-AF2F-C498795E19B7</Project>
       <Name>BulletInverseDynamicsUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletSoftBody\BulletSoftBody.vcxproj">
-      <Project>F4D3BB00-8544-33CF-9928-2AFA1004C346</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>A6719663-9E15-35B6-889E-EC88DA235CDC</Project>
       <Name>BulletSoftBody</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
-      <Project>A06C8A6A-8CE9-3609-BBAE-B9782DA0399F</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>0AFF622F-4FFF-3795-BE53-B2953C14CA8D</Project>
       <Name>BulletWorldImporter</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
-      <Project>DC3BE11C-B264-349C-A840-38A0FC702900</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>58A08D87-8151-3FEB-9B08-338755967AE1</Project>
       <Name>BussIK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
-      <Project>64871F12-CC7C-3471-8132-775AAA987463</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
+      <Project>D9EB2CC4-9C27-3C06-94C6-353DA59FEC28</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\OpenGLWindow\OpenGLWindow.vcxproj">
-      <Project>1B759CCE-EC03-3504-A1D0-4AC945652295</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\OpenGLWindow\OpenGLWindow.vcxproj">
+      <Project>F1B2C995-D3B5-3D33-89F1-163A6035CE37</Project>
       <Name>OpenGLWindow</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
-      <Project>732DF92B-2CFB-3B32-9ECF-DF0CD16983B6</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
+      <Project>AB117753-3170-32B1-90D3-5946CFAB1D28</Project>
       <Name>gwen</Name>
     </ProjectReference>
   </ItemGroup>

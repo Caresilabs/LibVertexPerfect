@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/Git/bullet3/Extras/Serialize/BulletXmlWorldImporter
+# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/Serialize/BulletXmlWorldImporter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

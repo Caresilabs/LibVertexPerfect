@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/Git/bullet3/Extras/Serialize
+# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/Serialize
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/BulletFileLoader/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/BulletXmlWorldImporter/cmake_install.cmake")
-  include("D:/Dev/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/BulletWorldImporter/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/BulletFileLoader/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/BulletXmlWorldImporter/cmake_install.cmake")
+  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/BulletWorldImporter/cmake_install.cmake")
 
 endif()
 

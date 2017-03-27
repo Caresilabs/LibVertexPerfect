@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/Git/bullet3/examples/ThirdPartyLibs/BussIK
+# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/BussIK
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

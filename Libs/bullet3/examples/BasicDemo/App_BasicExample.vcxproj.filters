@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\BasicDemo\BasicExample.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\BasicDemo\BasicExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\BasicDemo\main.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\BasicDemo\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\examples\BasicDemo\CMakeLists.txt" />
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\BasicDemo\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="D:\Dev\Git\bullet3\build3\bullet.rc">
+    <ResourceCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\build3\bullet.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A4C4A64D-5D80-354C-801B-D6083F5263E1}</UniqueIdentifier>
+      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

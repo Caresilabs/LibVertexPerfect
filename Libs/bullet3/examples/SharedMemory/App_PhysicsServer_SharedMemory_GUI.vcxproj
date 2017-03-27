@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{A01A3406-78D1-3C82-9CD7-197D5DC66532}</ProjectGUID>
+    <ProjectGUID>{CC416586-1E71-356A-91D9-90422CDB535F}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>App_PhysicsServer_SharedMemory_GUI</ProjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_PhysicsServer_SharedMemory_GUI.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_PhysicsServer_SharedMemory_GUI</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_PhysicsServer_SharedMemory_GUI.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_PhysicsServer_SharedMemory_GUI</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_PhysicsServer_SharedMemory_GUI.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_PhysicsServer_SharedMemory_GUI</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_PhysicsServer_SharedMemory_GUI.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_PhysicsServer_SharedMemory_GUI</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -86,7 +86,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -106,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;B3_USE_STANDALONE_EXAMPLE;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,8 +122,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Debug/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Debug/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Debug/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Debug/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -152,10 +152,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;B3_USE_STANDALONE_EXAMPLE;GLEW_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,8 +168,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Release/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Release/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Release/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/Release/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -179,7 +179,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -198,10 +198,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;B3_USE_STANDALONE_EXAMPLE;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,8 +214,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/MinSizeRel/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/MinSizeRel/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/MinSizeRel/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/MinSizeRel/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -225,7 +225,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -244,10 +244,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;B3_USE_STANDALONE_EXAMPLE;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\examples\ThirdPartyLibs;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Glew;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\headers;D:\Dev\Git\bullet3\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Glew;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\headers;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\openvr\samples\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -260,8 +260,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/RelWithDebInfo/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/RelWithDebInfo/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/RelWithDebInfo/App_PhysicsServer_SharedMemory_GUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/RelWithDebInfo/App_PhysicsServer_SharedMemory_GUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -270,10 +270,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,12 +307,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Programs\CMake\bin\cmake.exe -HD:/Dev/Git/bullet3 -BD:/Dev/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Dev/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
+E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/SharedMemory/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -320,142 +320,142 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Dev/Git/bullet3/examples/SharedMemory/CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;D:\Dev\Git\bullet3\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/SharedMemory/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\SharedMemory\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\IKTrajectoryHelper.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerSharedMemory.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServer.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\SharedMemoryCommands.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\SharedMemoryPublic.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirect.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirectC_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBack.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBackC_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory2_C_API.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory2.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\SharedMemoryCommandProcessor.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\SharedMemory\TinyRendererVisualShapeConverter.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\OpenGLWindow\SimpleCamera.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\UrdfParser.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\URDF2Bullet.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\RobotLoggingUtil.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Utils\ChromeTraceUtil.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\URDFImporterInterface.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\URDFJointTypes.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportSTLDemo\ImportSTLSetup.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\MultiThreading\b3ThreadSupportInterface.h" />
-    <ClInclude Include="D:\Dev\Git\bullet3\examples\MultiThreading\b3Win32ThreadSupport.h" />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\IKTrajectoryHelper.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClient.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientExample.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerExample.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerSharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServer.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientC_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PosixSharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\Win32SharedMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\InProcessMemory.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirect.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsDirectC_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBack.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsLoopBackC_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory2_C_API.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsClientSharedMemory2.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\SharedMemoryCommandProcessor.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\PhysicsServerCommandProcessor.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\geometry.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\model.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\tgaimage.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\our_gl.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\TinyRenderer\TinyRenderer.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\OpenGLWindow\SimpleCamera.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\UrdfParser.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\b3ResourcePath.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\b3Clock.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\RobotLoggingUtil.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Utils\ChromeTraceUtil.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinystr.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\MultiThreading\b3ThreadSupportInterface.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\StandaloneMain\main_opengl_single_example.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ExampleBrowser\OpenGLGuiHelper.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ExampleBrowser\GL_ShapeDrawer.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp"  />
-    <ClCompile Include="D:\Dev\Git\bullet3\examples\MultiThreading\b3Win32ThreadSupport.cpp"  />
-    <ResourceCompile Include="D:\Dev\Git\bullet3\build3\bullet.rc"  />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\IKTrajectoryHelper.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerSharedMemory.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServer.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\SharedMemoryCommands.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\SharedMemoryPublic.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirect.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirectC_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsLoopBack.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsLoopBackC_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory2_C_API.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory2.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\SharedMemoryCommandProcessor.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\TinyRendererVisualShapeConverter.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\OpenGLWindow\SimpleCamera.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\UrdfParser.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDF2Bullet.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\RobotLoggingUtil.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\ChromeTraceUtil.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDFImporterInterface.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDFJointTypes.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportSTLDemo\ImportSTLSetup.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiThreading\b3ThreadSupportInterface.h" />
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiThreading\b3Win32ThreadSupport.h" />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\IKTrajectoryHelper.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClient.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientExample.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerExample.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerSharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServer.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientC_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PosixSharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\Win32SharedMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\InProcessMemory.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirect.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsDirectC_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsLoopBack.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsLoopBackC_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory2_C_API.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsClientSharedMemory2.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\SharedMemoryCommandProcessor.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\PhysicsServerCommandProcessor.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\geometry.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\model.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\tgaimage.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\our_gl.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\TinyRenderer\TinyRenderer.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\OpenGLWindow\SimpleCamera.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\UrdfParser.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3Clock.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\RobotLoggingUtil.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\ChromeTraceUtil.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinystr.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\stb_image\stb_image.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiThreading\b3ThreadSupportInterface.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\StandaloneMain\main_opengl_single_example.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\OpenGLGuiHelper.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GL_ShapeDrawer.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp"  />
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiThreading\b3Win32ThreadSupport.cpp"  />
+    <ResourceCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\build3\bullet.rc"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>8D08EB63-3B63-3B23-B59F-AC65375F180C</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\Bullet3Common\Bullet3Common.vcxproj">
-      <Project>EE89FC93-A146-3236-90EF-193232923746</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>A08376B1-B085-3E21-8BDF-1BAFAECC9F5F</Project>
       <Name>Bullet3Common</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>13E2424B-FFEB-38EE-B421-A037FDB117D4</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>51E83CD8-AFBC-31E9-93AE-DCBE9A97887D</Project>
       <Name>BulletCollision</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>472812C5-2DA7-3103-9FE6-AB542E88B755</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>DA6CF95B-62C0-355C-BF44-0EA9A8AF6932</Project>
       <Name>BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
-      <Project>2FE9D000-A068-358B-B3EF-7A002F03ED9C</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>D9E263FD-5D82-3D49-BC4E-BE8218F8E0B4</Project>
       <Name>BulletFileLoader</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
-      <Project>89943C33-DDE9-35D7-BE43-314D5F8B44D9</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>2A5225B8-F68F-349B-90EC-40369E7D1209</Project>
       <Name>BulletInverseDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
-      <Project>4CC958EC-AC9D-3CA0-8C2B-E8B40E5031D9</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>4F2131CF-3040-39BB-AF2F-C498795E19B7</Project>
       <Name>BulletInverseDynamicsUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
-      <Project>A06C8A6A-8CE9-3609-BBAE-B9782DA0399F</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>0AFF622F-4FFF-3795-BE53-B2953C14CA8D</Project>
       <Name>BulletWorldImporter</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
-      <Project>DC3BE11C-B264-349C-A840-38A0FC702900</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>58A08D87-8151-3FEB-9B08-338755967AE1</Project>
       <Name>BussIK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
-      <Project>64871F12-CC7C-3471-8132-775AAA987463</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
+      <Project>D9EB2CC4-9C27-3C06-94C6-353DA59FEC28</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\examples\OpenGLWindow\OpenGLWindow.vcxproj">
-      <Project>1B759CCE-EC03-3504-A1D0-4AC945652295</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\examples\OpenGLWindow\OpenGLWindow.vcxproj">
+      <Project>F1B2C995-D3B5-3D33-89F1-163A6035CE37</Project>
       <Name>OpenGLWindow</Name>
     </ProjectReference>
   </ItemGroup>

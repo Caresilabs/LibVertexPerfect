@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/Git/bullet3/test/gtest-1.7.0
+# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/gtest-1.7.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

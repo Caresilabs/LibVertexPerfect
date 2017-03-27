@@ -1,4 +1,4 @@
-# Install script for directory: D:/Dev/Git/bullet3/examples/OpenGLWindow
+# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/OpenGLWindow
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

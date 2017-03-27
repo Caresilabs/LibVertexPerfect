@@ -1,84 +1,84 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBody.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBody.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodyHelpers.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodyHelpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftMultiBodyDynamicsWorld.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftMultiBodyDynamicsWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btDefaultSoftBodySolver.cpp">
+    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btDefaultSoftBodySolver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBody.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBody.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodyData.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodyData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodyHelpers.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodyHelpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftRigidDynamicsWorld.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftRigidDynamicsWorld.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftMultiBodyDynamicsWorld.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftMultiBodyDynamicsWorld.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSparseSDF.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSparseSDF.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodySolvers.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodySolvers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btDefaultSoftBodySolver.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btDefaultSoftBodySolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Git\bullet3\src\BulletSoftBody\btSoftBodySolverVertexBuffer.h">
+    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\btSoftBodySolverVertexBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\bullet3\src\BulletSoftBody\CMakeLists.txt" />
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\BulletSoftBody\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A4C4A64D-5D80-354C-801B-D6083F5263E1}</UniqueIdentifier>
+      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D7D2014B-19E0-31E5-90F6-2086436044B9}</UniqueIdentifier>
+      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

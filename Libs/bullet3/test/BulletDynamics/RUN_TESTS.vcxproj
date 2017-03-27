@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{54E3A7FD-270E-3ECB-9C3C-C39657B1D80D}</ProjectGUID>
+    <ProjectGUID>{3DD62EE5-A98D-36F4-9B66-C6B72AD04E82}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>RUN_TESTS</ProjectName>
@@ -66,7 +66,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-D:\Programs\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
+E:\Program\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -88,7 +88,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -98,7 +98,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-D:\Programs\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
+E:\Program\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -110,7 +110,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +120,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-D:\Programs\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
+E:\Program\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -132,7 +132,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Dev\Git\bullet3\src;D:\Dev\Git\bullet3\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -142,7 +142,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-D:\Programs\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
+E:\Program\CMake\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -153,7 +153,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\CMakeFiles\0d3aacc220db0740ee03be06aa943a1c\RUN_TESTS_force.rule">
+    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\CMakeFiles\9626472cb312ab1322ac0c1ae1d63fc1\RUN_TESTS_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -164,8 +164,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Dev/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/0d3aacc220db0740ee03be06aa943a1c/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/9626472cb312ab1322ac0c1ae1d63fc1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -177,8 +177,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Dev/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/0d3aacc220db0740ee03be06aa943a1c/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/9626472cb312ab1322ac0c1ae1d63fc1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -190,8 +190,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Dev/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/0d3aacc220db0740ee03be06aa943a1c/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/9626472cb312ab1322ac0c1ae1d63fc1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -203,14 +203,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Dev/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/0d3aacc220db0740ee03be06aa943a1c/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Dev\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bullet3/CMakeFiles/9626472cb312ab1322ac0c1ae1d63fc1/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\CMakeFiles\RUN_TESTS_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Dev\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>8D08EB63-3B63-3B23-B59F-AC65375F180C</Project>
+    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>
