@@ -6,11 +6,11 @@ class DXFrameBuffer : public FrameBuffer {
 public:
 	DXFrameBuffer( int width, int height,  bool depth = true, bool colorView = true, bool useShaderResource = false );
 
-	virtual void	Bind() override;
+	virtual void		Bind() override;
 
-	virtual void	Unbind() override;
+	virtual void		Unbind() override;
 
-	virtual void	Clear( float r, float g, float b ) override;
+	virtual void		Clear( float r, float g, float b ) override;
 
 	HRESULT			CreateDepthStencilView( int width, int height, bool useShaderResource );
 	HRESULT			CreateRenderTargetView();

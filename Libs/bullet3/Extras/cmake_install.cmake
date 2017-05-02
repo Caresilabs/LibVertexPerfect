@@ -1,4 +1,4 @@
-# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras
+# Install script for directory: D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,12 +29,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/ConvexDecomposition/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/GIMPACTUtils/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/InverseDynamics/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/Serialize/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/ConvexDecomposition/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/GIMPACTUtils/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/InverseDynamics/cmake_install.cmake")
 
 endif()
 

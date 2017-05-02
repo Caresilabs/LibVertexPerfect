@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{A8600645-CEBA-3AA5-98C2-F065CA60E7D2}</ProjectGUID>
+    <ProjectGUID>{35F5FC2F-F77E-3358-A230-5D1C7D4EEA18}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>App_obj2sdf</ProjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_obj2sdf.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_obj2sdf</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_obj2sdf.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_obj2sdf</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_obj2sdf.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_obj2sdf</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_obj2sdf.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_obj2sdf</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -86,7 +86,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -106,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,8 +122,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Debug/App_obj2sdf.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Debug/App_obj2sdf.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Debug/App_obj2sdf.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Debug/App_obj2sdf.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -152,10 +152,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,8 +168,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Release/App_obj2sdf.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Release/App_obj2sdf.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Release/App_obj2sdf.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/Release/App_obj2sdf.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -179,7 +179,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -198,10 +198,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,8 +214,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/MinSizeRel/App_obj2sdf.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/MinSizeRel/App_obj2sdf.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/MinSizeRel/App_obj2sdf.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/MinSizeRel/App_obj2sdf.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -225,7 +225,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -244,10 +244,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -260,8 +260,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/RelWithDebInfo/App_obj2sdf.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/RelWithDebInfo/App_obj2sdf.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/RelWithDebInfo/App_obj2sdf.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/RelWithDebInfo/App_obj2sdf.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -270,10 +270,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,12 +307,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/obj2sdf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -320,24 +320,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\obj2sdf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.h" />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\obj2sdf.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp"  />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.h" />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\obj2sdf\obj2sdf.cpp"  />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp"  />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>73C5FCCC-2BAE-311F-98D9-C87FE82BAF18</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\Bullet3Common\Bullet3Common.vcxproj">
-      <Project>A08376B1-B085-3E21-8BDF-1BAFAECC9F5F</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>65DFFAD0-98B1-3867-9C8C-12B3F7BF0E96</Project>
       <Name>Bullet3Common</Name>
     </ProjectReference>
   </ItemGroup>

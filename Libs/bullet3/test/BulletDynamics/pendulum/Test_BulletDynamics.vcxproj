@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{D0A8CF35-2331-348D-A618-03B400B3D06C}</ProjectGUID>
+    <ProjectGUID>{8FCA2DA1-9708-3E70-A4C1-1D76E5415DEC}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>Test_BulletDynamics</ProjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Test_BulletDynamics.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Test_BulletDynamics</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Test_BulletDynamics.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Test_BulletDynamics</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Test_BulletDynamics.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Test_BulletDynamics</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Test_BulletDynamics.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Test_BulletDynamics</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -86,7 +86,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -106,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,8 +122,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Debug/Test_BulletDynamics.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Debug/Test_BulletDynamics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Debug/Test_BulletDynamics.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Debug/Test_BulletDynamics.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -152,10 +152,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,8 +168,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Release/Test_BulletDynamics.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Release/Test_BulletDynamics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Release/Test_BulletDynamics.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/Release/Test_BulletDynamics.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -179,7 +179,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -198,10 +198,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,8 +214,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/MinSizeRel/Test_BulletDynamics.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/MinSizeRel/Test_BulletDynamics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/MinSizeRel/Test_BulletDynamics.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/MinSizeRel/Test_BulletDynamics.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -225,7 +225,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -244,10 +244,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_GTEST;_VARIADIC_MAX=10;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\gtest-1.7.0\include;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\.;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\..\src;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\..\..\gtest-1.7.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -260,8 +260,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/RelWithDebInfo/Test_BulletDynamics.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/RelWithDebInfo/Test_BulletDynamics.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/RelWithDebInfo/Test_BulletDynamics.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/RelWithDebInfo/Test_BulletDynamics.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -270,10 +270,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,12 +307,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/BulletDynamics/pendulum/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -320,33 +320,33 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/test/BulletDynamics/pendulum/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\BulletDynamics\pendulum\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiBody\Pendulum.cpp"  />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiBody\Pendulum.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>73C5FCCC-2BAE-311F-98D9-C87FE82BAF18</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>51E83CD8-AFBC-31E9-93AE-DCBE9A97887D</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>C72F07B7-4934-3208-89B7-C74396428091</Project>
       <Name>BulletCollision</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>DA6CF95B-62C0-355C-BF44-0EA9A8AF6932</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>0A2CA713-5A26-3DFB-8217-4CE512E444C1</Project>
       <Name>BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
-      <Project>D9EB2CC4-9C27-3C06-94C6-353DA59FEC28</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\src\LinearMath\LinearMath.vcxproj">
+      <Project>2C662215-9A64-3F6E-A0EC-59C4FC16EDA4</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\test\gtest-1.7.0\gtest.vcxproj">
-      <Project>247657E9-B680-3BD9-885A-AEBA3DFD7785</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\test\gtest-1.7.0\gtest.vcxproj">
+      <Project>1D55A127-2F56-3A82-87BE-5CA497B11D03</Project>
       <Name>gtest</Name>
     </ProjectReference>
   </ItemGroup>

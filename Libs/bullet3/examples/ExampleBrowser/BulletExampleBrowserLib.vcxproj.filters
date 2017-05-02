@@ -1,90 +1,90 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\OpenGLExampleBrowser.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\OpenGLExampleBrowser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\OpenGLGuiHelper.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\OpenGLGuiHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GL_ShapeDrawer.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GL_ShapeDrawer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3Clock.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3Clock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\ChromeTraceUtil.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\ChromeTraceUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GraphingTexture.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GraphingTexture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenParameterInterface.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenParameterInterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenProfileWindow.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenProfileWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenTextureWindow.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenTextureWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\CollisionShape2TriangleMesh.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\CollisionShape2TriangleMesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3Clock.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3Clock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\ChromeTraceUtil.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\ChromeTraceUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ERPCFMHelper.hpp">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ERPCFMHelper.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ReferenceFrameHelper.hpp">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ReferenceFrameHelper.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GraphingTexture.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GraphingTexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenParameterInterface.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenParameterInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenProfileWindow.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenProfileWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenTextureWindow.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\GwenTextureWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\gwenInternalData.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\gwenInternalData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\CMakeLists.txt" />
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ExampleBrowser\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
+      <UniqueIdentifier>{9EE3D89C-8C82-3903-B8E2-A28D775A59D7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
+      <UniqueIdentifier>{B9F84514-B438-332A-8DEC-6F55764B6958}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

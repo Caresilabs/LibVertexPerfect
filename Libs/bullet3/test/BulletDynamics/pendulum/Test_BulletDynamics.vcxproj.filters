@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiBody\Pendulum.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\MultiBody\Pendulum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt" />
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\BulletDynamics\pendulum\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
+      <UniqueIdentifier>{9EE3D89C-8C82-3903-B8E2-A28D775A59D7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,123 +1,123 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\InverseDynamics\test_invdyn_bullet.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\InverseDynamics\test_invdyn_bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3ResourcePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3Clock.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Utils\b3Clock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\bChunk.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\bChunk.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\bFile.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\bFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\bDNA.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\bDNA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\btBulletFile.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\Serialize\BulletFileLoader\btBulletFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinystr.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinystr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\UrdfParser.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\UrdfParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDF2Bullet.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDF2Bullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDFImporterInterface.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDFImporterInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDFJointTypes.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportURDFDemo\URDFJointTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportSTLDemo\ImportSTLSetup.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportSTLDemo\ImportSTLSetup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\InverseDynamics\CMakeLists.txt" />
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\test\InverseDynamics\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
+      <UniqueIdentifier>{9EE3D89C-8C82-3903-B8E2-A28D775A59D7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
+      <UniqueIdentifier>{B9F84514-B438-332A-8DEC-6F55764B6958}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

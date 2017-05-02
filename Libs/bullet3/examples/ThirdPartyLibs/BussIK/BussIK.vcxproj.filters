@@ -1,75 +1,75 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Jacobian.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Jacobian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR2.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR3.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR4.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MatrixRmn.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MatrixRmn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Misc.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Misc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Node.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Node.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Tree.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\VectorRn.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\VectorRn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Jacobian.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Jacobian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR2.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR3.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR4.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\LinearR4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MathMisc.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MathMisc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MatrixRmn.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\MatrixRmn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Node.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Spherical.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Spherical.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Tree.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\Tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\VectorRn.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\VectorRn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt" />
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\examples\ThirdPartyLibs\BussIK\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
+      <UniqueIdentifier>{9EE3D89C-8C82-3903-B8E2-A28D775A59D7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
+      <UniqueIdentifier>{B9F84514-B438-332A-8DEC-6F55764B6958}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

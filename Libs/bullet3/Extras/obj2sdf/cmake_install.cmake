@@ -1,4 +1,4 @@
-# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf
+# Install script for directory: D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/obj2sdf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

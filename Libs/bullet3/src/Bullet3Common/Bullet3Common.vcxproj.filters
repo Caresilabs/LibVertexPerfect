@@ -1,93 +1,93 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3AlignedAllocator.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3AlignedAllocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Vector3.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Vector3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Logging.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Logging.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3AlignedAllocator.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3AlignedAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3AlignedObjectArray.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3AlignedObjectArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3CommandLineArgs.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3CommandLineArgs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3HashMap.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3HashMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Logging.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Logging.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Matrix3x3.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Matrix3x3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3MinMax.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3MinMax.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3PoolAllocator.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3PoolAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3QuadWord.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3QuadWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Quaternion.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Quaternion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Random.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Random.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Scalar.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Scalar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3StackAlloc.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3StackAlloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Transform.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3TransformUtil.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3TransformUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Vector3.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\b3Vector3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Float4.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Float4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Int2.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Int2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Int4.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Int4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Mat3x3.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Mat3x3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3PlatformDefinitions.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3PlatformDefinitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Quat.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\shared\b3Quat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\CMakeLists.txt" />
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\src\Bullet3Common\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
+      <UniqueIdentifier>{9EE3D89C-8C82-3903-B8E2-A28D775A59D7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
+      <UniqueIdentifier>{B9F84514-B438-332A-8DEC-6F55764B6958}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

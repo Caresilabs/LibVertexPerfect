@@ -1,96 +1,96 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfitobb.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfitobb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexBuilder.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_wavefront.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_wavefront.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\fitsphere.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\fitsphere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\meshvolume.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\meshvolume.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\raytri.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\raytri.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\vlookup.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\vlookup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfit.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_hull.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_hull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexDecomposition.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexDecomposition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\concavity.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\concavity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\float_math.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\float_math.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\planetri.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\planetri.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\splitplane.cpp">
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\splitplane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexDecomposition.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexDecomposition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_vector.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\concavity.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\concavity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfitobb.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfitobb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexBuilder.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\ConvexBuilder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_wavefront.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_wavefront.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\fitsphere.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\fitsphere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\meshvolume.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\meshvolume.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\raytri.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\raytri.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\vlookup.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\vlookup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfit.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\bestfit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_hull.h">
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\cd_hull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\CMakeLists.txt" />
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\ConvexDecomposition\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2BD71C0A-3609-3DBC-AFC7-F6B5C63C1517}</UniqueIdentifier>
+      <UniqueIdentifier>{9EE3D89C-8C82-3903-B8E2-A28D775A59D7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4164FD16-F2C6-3E63-8EC7-83EFB014AC35}</UniqueIdentifier>
+      <UniqueIdentifier>{B9F84514-B438-332A-8DEC-6F55764B6958}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

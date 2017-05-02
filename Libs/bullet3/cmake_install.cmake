@@ -1,4 +1,4 @@
-# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics
+# Install script for directory: D:/Development/Git/LibVertexPerfect/Libs/bulletphysics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,17 +29,17 @@ endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/bullet" TYPE FILE FILES
-    "E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/UseBullet.cmake"
-    "E:/Development/Git/LibVertexPerfect/Libs/bullet3/BulletConfig.cmake"
+    "D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/UseBullet.cmake"
+    "D:/Development/Git/LibVertexPerfect/Libs/bullet3/BulletConfig.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/src/cmake_install.cmake")
-  include("E:/Development/Git/LibVertexPerfect/Libs/bullet3/test/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/examples/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/src/cmake_install.cmake")
+  include("D:/Development/Git/LibVertexPerfect/Libs/bullet3/test/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Development/Git/LibVertexPerfect/Libs/bullet3/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Development/Git/LibVertexPerfect/Libs/bullet3/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

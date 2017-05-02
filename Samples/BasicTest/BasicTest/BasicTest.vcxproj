@@ -97,7 +97,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\..\LibVertexPerfect\LibVertexPerfect;..\..\..\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\LibVertexPerfect\LibVertexPerfect;..\..\..\Libs\bulletphysics\src;..\..\..\Libs\entityx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -119,15 +119,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Physics\MeshColliderData.cpp" />
     <ClCompile Include="MyTestGame.cpp" />
     <ClCompile Include="PhongShader.cpp" />
     <ClCompile Include="ShadowMapShader.cpp" />
     <ClCompile Include="TestApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Components\MeshInstanceComponent.h" />
+    <ClInclude Include="Physics\MeshColliderData.h" />
     <ClInclude Include="MyTestGame.h" />
     <ClInclude Include="PhongShader.h" />
     <ClInclude Include="ShadowMapShader.h" />
+    <ClInclude Include="Systems\MyRenderSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

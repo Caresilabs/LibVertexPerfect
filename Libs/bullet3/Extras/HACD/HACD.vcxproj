@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{9662737D-EBF2-383A-A1D4-75BE4756F5A1}</ProjectGUID>
+    <ProjectGUID>{BA90177F-4568-33C7-96A8-8586A0D313B3}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>HACD</ProjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">HACD.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">HACD_Debug</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HACD.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HACD</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">HACD.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">HACD_MinsizeRel</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\lib\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">HACD.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">HACD_RelWithDebugInfo</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -98,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -168,10 +168,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -184,7 +184,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -203,10 +203,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -218,10 +218,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,12 +229,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,12 +242,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,12 +255,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-E:\Program\CMake\bin\cmake.exe -HE:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BE:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file E:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe -HD:/Development/Git/LibVertexPerfect/Libs/bulletphysics -BD:/Development/Git/LibVertexPerfect/Libs/bullet3 --check-stamp-file D:/Development/Git/LibVertexPerfect/Libs/bullet3/Extras/HACD/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,29 +268,29 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/Extras/HACD/CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\Git\LibVertexPerfect\Libs\bullet3\Extras\HACD\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdCircularList.h" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdGraph.h" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdHACD.h" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdICHull.h" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdManifoldMesh.h" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdVector.h" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdVersion.h" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdCircularList.inl" />
-    <ClInclude Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdVector.inl" />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdGraph.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdHACD.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdICHull.cpp"  />
-    <ClCompile Include="E:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdManifoldMesh.cpp"  />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdCircularList.h" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdGraph.h" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdHACD.h" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdICHull.h" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdManifoldMesh.h" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdVector.h" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdVersion.h" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdCircularList.inl" />
+    <ClInclude Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdVector.inl" />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdGraph.cpp"  />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdHACD.cpp"  />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdICHull.cpp"  />
+    <ClCompile Include="D:\Development\Git\LibVertexPerfect\Libs\bulletphysics\Extras\HACD\hacdManifoldMesh.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
-      <Project>9EE2E1F6-025F-3062-AB65-1C40753A8CFE</Project>
+    <ProjectReference Include="D:\Development\Git\LibVertexPerfect\Libs\bullet3\ZERO_CHECK.vcxproj">
+      <Project>73C5FCCC-2BAE-311F-98D9-C87FE82BAF18</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

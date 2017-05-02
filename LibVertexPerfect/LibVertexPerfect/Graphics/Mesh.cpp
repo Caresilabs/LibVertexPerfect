@@ -17,15 +17,15 @@ OBJMesh::OBJMesh( const std::string & file ) {
 
 	auto Device = static_cast<DXGraphics*>(LVP::Graphics)->Device;
 
-	MeshData* mesh = new MeshData();
-	mesh->LoadObj( file );
+	meshData = new MeshData();
+	meshData->LoadObj( file );
 
 	// load and organize indices in ranges per drawcall (material)
 	//
 	std::vector<unsigned> indices;
 	size_t i_ofs = 0;
 
-	for ( auto& dc : mesh->drawcalls ) {
+	for ( auto& dc : meshData->drawcalls ) {
 		// append the drawcall indices
 		for ( auto& tri : dc.tris )
 			indices.insert( indices.end(), tri.vi, tri.vi + 3 );
@@ -44,10 +44,10 @@ OBJMesh::OBJMesh( const std::string & file ) {
 	vbufferDesc.CPUAccessFlags = 0;
 	vbufferDesc.Usage = D3D11_USAGE_DEFAULT;
 	vbufferDesc.MiscFlags = 0;
-	vbufferDesc.ByteWidth = mesh->vertices.size() * sizeof( vertex_t );
+	vbufferDesc.ByteWidth = meshData->vertices.size() * sizeof( vertex_t );
 	// data resource
 	D3D11_SUBRESOURCE_DATA vdata;
-	vdata.pSysMem = &(mesh->vertices)[0];
+	vdata.pSysMem = &(meshData->vertices)[0];
 
 	// create vertex buffer on device using descriptor & data
 	HRESULT vhr = Device->CreateBuffer( &vbufferDesc, &vdata, &VertexBuffer );
@@ -66,7 +66,7 @@ OBJMesh::OBJMesh( const std::string & file ) {
 	HRESULT ihr = Device->CreateBuffer( &ibufferDesc, &idata, &IndexBuffer );
 
 	// copy materials from mesh
-	append_materials( mesh->materials );
+	append_materials(meshData->materials );
 
 	// load textures associated with materials to device
 	for ( auto& mtl : materials ) {
@@ -103,7 +103,7 @@ OBJMesh::OBJMesh( const std::string & file ) {
 		// other maps here...
 	}
 
-	SAFE_DELETE( mesh );
+	
 }
 
 void OBJMesh::Render( ShaderProgram& shader ) const {
@@ -130,6 +130,16 @@ void OBJMesh::Render( ShaderProgram& shader ) const {
 		// make the drawcall
 		DeviceContext->DrawIndexed( irange.size, irange.start, 0 );
 	}
+}
+
+const MeshData* OBJMesh::GetMeshData() const
+{
+	return meshData;
+}
+
+OBJMesh::~OBJMesh()
+{
+	SAFE_DELETE(meshData);
 }
 
 

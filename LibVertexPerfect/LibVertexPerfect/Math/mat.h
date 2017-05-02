@@ -496,10 +496,20 @@ namespace linalg {
 			const T sing = sin( gamma );
 			const T cosg = cos( gamma );
 
-			return mat4<T>( cosa*cosb, cosa*sinb*sing - sina*cosg, cosa*sinb*cosg - sina*sing, 0,
+		/*	return mat4<T>(cosa*cosb, cosa*sinb*sing - sina*cosg, cosa*sinb*cosg - sina*sing, -cosg*sinb*cosa + sing*sina,
+				sina*cosb, sina*sinb*sing + cosa*cosg, sina*sinb*cosg - cosa*sing, cosg*sinb*sina + sin*cosa,
+				-sinb, cosb*sing, cosb*cosg, cosg*cosb,
+				0, 0, 0, 1);*/
+
+			return mat4<T>(cosa*cosb, cosa*sinb*sing - sina*cosg, cosa*sinb*cosg - sina*sing, cosg*sinb*cosa - sing*sina,
 				sina*cosb, sina*sinb*sing + cosa*cosg, sina*sinb*cosg - cosa*sing, 0,
 				-sinb, cosb*sing, cosb*cosg, 0,
-				0, 0, 0, 1 );
+				0, 0, 0, 1);
+
+			/*return mat4<T>( cosa*cosb, cosa*sinb*sing - sina*cosg, cosa*sinb*cosg - sina*sing, 0,
+				sina*cosb, sina*sinb*sing + cosa*cosg, sina*sinb*cosg - cosa*sing, 0,
+				-sinb, cosb*sing, cosb*cosg, 0,
+				0, 0, 0, 1 );*/
 		}
 
 		static mat4<T> TRS( vec3<T> vt, float theta, vec3<T> rotv, vec3<T> sv ) {

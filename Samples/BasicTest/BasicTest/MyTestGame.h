@@ -2,9 +2,8 @@
 
 #include "ApplicationListener.h"
 #include "LVP.h"
-#include "PhongShader.h"
+#include "entityx/entityx.h"
 #include "Graphics/MeshInstance.h"
-#include "Graphics/DXFrameBuffer.h"
 
 class MyTestGame : public ApplicationListener {
 public:
@@ -19,16 +18,10 @@ public:
 
 private:
 
+	entityx::EntityX			Ecs;
 
 	VPtr<MeshInstance>		SphereInstance;
-
-	VPtr<ShaderProgram>		Shader;
-	VPtr<Camera>			Cam;
-
-
-	VPtr<Camera>			ShadowCam;
-	VPtr<ShaderProgram>		ShadowShader;
-	VPtr<DXFrameBuffer>		ShadowMapBuffer;
+	VPtr<MeshInstance>		WorldInstance;
 
 };
 

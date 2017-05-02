@@ -100,7 +100,7 @@ float4 PS_main(PSIn input) : SV_Target
     // Cull out everytthing outside frustum
     if((saturate( input.LightPosTest.x) != input.LightPosTest.x) || (saturate( input.LightPosTest.y) !=  input.LightPosTest.y))
 	{
-		shadowScale = Ka.x * 0.9;
+		shadowScale = Ka.x;
 		return float4( ( diffuse ) * shadowScale, 1);
 	}
 	
@@ -119,11 +119,11 @@ float4 PS_main(PSIn input) : SV_Target
     }
 	Factor = (Factor / 9.0);
 
-	float zDepth = input.LightPosTest.z - 0.00008;
+	float zDepth = input.LightPosTest.z - 0.00002;
 
     // if clip space z value greater than shadow map value then pixel is in shadow
     if ( Factor <  zDepth  )  {
-		shadowScale = Ka.x * 0.9;
+		shadowScale = Ka.x;
 		return float4( ( diffuse ) * shadowScale, 1);
 	}
 

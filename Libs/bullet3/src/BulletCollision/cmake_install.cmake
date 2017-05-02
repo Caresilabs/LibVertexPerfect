@@ -1,4 +1,4 @@
-# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletCollision
+# Install script for directory: D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/src/BulletCollision
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

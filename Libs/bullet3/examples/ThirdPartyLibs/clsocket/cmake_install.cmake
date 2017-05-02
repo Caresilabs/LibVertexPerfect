@@ -1,4 +1,4 @@
-# Install script for directory: E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket
+# Install script for directory: D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,23 +29,23 @@ endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/Debug/clsocket_Debug.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/Debug/clsocket_Debug.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/Release/clsocket.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/Release/clsocket.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/MinSizeRel/clsocket_MinsizeRel.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/MinSizeRel/clsocket_MinsizeRel.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/RelWithDebInfo/clsocket_RelWithDebugInfo.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Development/Git/LibVertexPerfect/Libs/bullet3/lib/RelWithDebInfo/clsocket_RelWithDebugInfo.lib")
   endif()
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.h"
-    "E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/Host.h"
-    "E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.h"
-    "E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.h"
-    "E:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/StatTimer.h"
+    "D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.h"
+    "D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/Host.h"
+    "D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.h"
+    "D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.h"
+    "D:/Development/Git/LibVertexPerfect/Libs/bulletphysics/examples/ThirdPartyLibs/clsocket/src/StatTimer.h"
     )
 endif()
 

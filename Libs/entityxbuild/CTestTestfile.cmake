@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: E:/Development/Git/LibVertexPerfect/Libs/entityx
-# Build directory: E:/Development/Git/LibVertexPerfect/Libs/entityxbuild
+# Source directory: D:/Development/Git/LibVertexPerfect/Libs/entityx
+# Build directory: D:/Development/Git/LibVertexPerfect/Libs/entityxbuild
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

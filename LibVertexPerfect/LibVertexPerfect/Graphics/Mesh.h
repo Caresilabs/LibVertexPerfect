@@ -38,12 +38,21 @@ protected:
 
 };
 
+class MeshData;
+
 class OBJMesh : public Mesh {
+private:
+	MeshData* meshData;
+
 public:
 
 	OBJMesh( const std::string& file );
 
 	void Render( ShaderProgram& shader ) const override;
+
+	const MeshData* GetMeshData() const;
+
+	virtual ~OBJMesh() override;
 
 };
 

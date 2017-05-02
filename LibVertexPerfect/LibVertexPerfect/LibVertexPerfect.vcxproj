@@ -89,6 +89,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\..\Libs\bulletphysics\src;..\..\Libs\entityx\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -117,6 +118,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Libs\bulletphysics\src;..\..\Libs\entityx\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -137,7 +139,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Libs\bulletphysics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Libs\bulletphysics\src;..\..\Libs\entityx\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -148,6 +150,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="Gameplay\Components\Physics.h" />
+    <ClInclude Include="Gameplay\Components\Transform.h" />
+    <ClInclude Include="Gameplay\Systems\PhysicsSystem.h" />
     <ClInclude Include="Graphics\DXFrameBuffer.h" />
     <ClInclude Include="Graphics\Camera.h" />
     <ClInclude Include="DXApplication.h" />
@@ -172,6 +177,7 @@
     <ClInclude Include="VPtr.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Gameplay\Systems\PhysicsSystem.cpp" />
     <ClCompile Include="Graphics\DXFrameBuffer.cpp" />
     <ClCompile Include="Graphics\Camera.cpp" />
     <ClCompile Include="DXApplication.cpp" />
